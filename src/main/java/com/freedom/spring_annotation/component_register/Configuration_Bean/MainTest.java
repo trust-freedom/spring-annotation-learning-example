@@ -1,6 +1,6 @@
 package com.freedom.spring_annotation.component_register.Configuration_Bean;
 
-import com.freedom.spring_annotation.common.bean.Person;
+import com.freedom.spring_annotation.component_register.Configuration_Bean.bean.Person;
 import com.freedom.spring_annotation.component_register.Configuration_Bean.config.MainConfig;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -14,7 +14,7 @@ public class MainTest {
      */
     @Test
     public void testClassPathXmlApplicationContext(){
-        ApplicationContext applicationContext =  new ClassPathXmlApplicationContext("beans.xml");
+        ApplicationContext applicationContext =  new ClassPathXmlApplicationContext("beans1.xml");
         Person person = (Person)applicationContext.getBean("person");
         System.out.println(person);
     }

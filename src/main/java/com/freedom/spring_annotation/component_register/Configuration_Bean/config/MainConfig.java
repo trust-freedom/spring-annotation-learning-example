@@ -1,6 +1,6 @@
 package com.freedom.spring_annotation.component_register.Configuration_Bean.config;
 
-import com.freedom.spring_annotation.common.bean.Person;
+import com.freedom.spring_annotation.component_register.Configuration_Bean.bean.Person;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

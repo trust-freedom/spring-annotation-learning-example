@@ -1,6 +1,4 @@
-package com.freedom.spring_annotation.common.bean;
-
-import org.springframework.beans.factory.annotation.Value;
+package com.freedom.spring_annotation.component_register.Configuration_Bean.bean;
 
 public class Person {
 
