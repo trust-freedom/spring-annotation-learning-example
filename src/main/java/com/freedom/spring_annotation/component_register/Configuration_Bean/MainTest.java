@@ -10,7 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class MainTest {
 
     /**
-     * 传统的基于XML注册主键
+     * 传统的基于XML注册组件
      */
     @Test
     public void testClassPathXmlApplicationContext(){
